@@ -100,16 +100,10 @@ namespace LeetCode
                 return;
             }
 
-
             //循環
             for (int i = start; i < candidates.Length; i++)
             {
                 sum += candidates[i];
-                //if (sum > target)
-                //{
-                //    sum -= candidates[i];
-                //    continue;
-                //}
                 sub.Add(candidates[i]);
                 Backtracking2(candidates, target, sum, sub, ans, i);
                 sum -= candidates[i];

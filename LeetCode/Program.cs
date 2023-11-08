@@ -3,5 +3,6 @@ using LeetCode;
 
 Console.WriteLine("Hello, World!");
 
-LC2347_Best_Poker_Hand.Start();
+
+LC48_Rotate_Image.Start();
 
