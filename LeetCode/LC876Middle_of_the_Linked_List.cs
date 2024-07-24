@@ -35,7 +35,7 @@ namespace LeetCode
 
         //Input: nums = [3,1,2,4]
         //Output: [2,4,3,1]
-        public static ListNode MiddleNode(ListNode head)
+        static ListNode MiddleNode(ListNode head)
         {
             ListNode ans = head;
 

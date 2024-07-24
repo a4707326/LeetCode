@@ -34,5 +34,21 @@ namespace LeetCode
             return head;
         }
 
+        public static void PrintListNode(ListNode node)
+        {
+            ListNode prtNode = node;
+
+
+             while(prtNode != null)
+             {
+                Console.WriteLine(prtNode.val);
+                prtNode = prtNode.next;
+             }
+            //if (prtNode == null)
+            //{
+            //    Console.WriteLine(0);
+            //}
+        }
+
     }
 }
