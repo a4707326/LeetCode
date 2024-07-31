@@ -17,19 +17,12 @@ namespace LeetCode
 
 
             int[] nums = { 1, 2, 1000, 1 };
-            int[] nums2 = { 2, 2, 3, 3 };
-            int num = 5;
-            int num2 = 1;
-            string str = "cba";
-            string str2 = "abcd";
+
 
             var ans = MinCostClimbingStairs(nums);
 
 
-            //foreach ( var i in ans ) 
-            //{
-            //    Console.WriteLine(i.ToString());
-            //}
+
 
             Console.WriteLine(ans);
 

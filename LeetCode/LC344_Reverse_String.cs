@@ -14,15 +14,6 @@ namespace LeetCode
         {
             Console.WriteLine("LC344_Reverse_String");
 
-
-
-            int[] nums = { 2, 2, 3, 3 };
-            int[] nums2 = { 2, 2, 3, 3 };
-            int num = 5;
-            int num2 = 1;
-            string str = "cba";
-            string str2 = "abcd";
-            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
             char[] chars = { 'h', 'e', 'l', 'l', 'o' };
 
             ReverseString(chars);
@@ -33,16 +24,6 @@ namespace LeetCode
                 Console.WriteLine(i.ToString());
             }
 
-            ////IList<IList<string>> 
-            //foreach (var i in ans)
-            //{
-            //    foreach (var j in i)
-            //    {
-            //        Console.WriteLine(j.ToString());
-            //    }
-            //}
-
-            //Console.WriteLine(ans);
 
         }
 

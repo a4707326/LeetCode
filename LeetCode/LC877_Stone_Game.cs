@@ -18,19 +18,11 @@ namespace LeetCode
 
 
             int[] nums = { 6, 3, 96, 99 };
-            int[] nums2 = { 2, 2, 3, 3 };
-            int num = 5;
-            int num2 = 1;
-            string str = "cba";
-            string str2 = "abcd";
+
 
             var ans = StoneGame2(nums);
 
 
-            //foreach ( var i in ans ) 
-            //{
-            //    Console.WriteLine(i.ToString());
-            //}
 
             Console.WriteLine(ans);
 

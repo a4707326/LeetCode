@@ -17,29 +17,9 @@ namespace LeetCode
 
 
             int[] nums = { 6, 2, 6, 5, 1, 2 };
-            int[] nums2 = { 2, 2, 3, 3 };
-            int num = 5;
-            int num2 = 1;
-            string str = "cba";
-            string str2 = "abcd";
-            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
 
             var ans = ArrayPairSum(nums);
 
-
-            //foreach ( var i in ans ) 
-            //{
-            //    Console.WriteLine(i.ToString());
-            //}
-
-            ////IList<IList<string>> 
-            //foreach (var i in ans)
-            //{
-            //    foreach (var j in i)
-            //    {
-            //        Console.WriteLine(j.ToString());
-            //    }
-            //}
 
             Console.WriteLine(ans);
 

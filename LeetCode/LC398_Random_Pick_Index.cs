@@ -17,12 +17,7 @@ namespace LeetCode
 
 
             int[] nums = { 1, 2, 3, 3, 3 };
-            int[] nums2 = { 2, 2, 3, 3 };
-            int num = 5;
-            int num2 = 1;
-            string str = "cba";
-            string str2 = "abcd";
-            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+
 
             Solution2(nums);
 
@@ -30,24 +25,7 @@ namespace LeetCode
             Console.WriteLine(Pick2(1));
             Console.WriteLine(Pick2(3));
 
-            //foreach ( var i in ans ) 
-            //{
-            //    Console.WriteLine(i.ToString());
-            //}
 
-            ////IList<IList<string>> 
-            //foreach (var i in ans)
-            //{
-            //    foreach (var j in i)
-            //    {
-            //        Console.WriteLine(j.ToString());
-            //    }
-            //}
-
-            //Console.WriteLine(nums);
-
-            //List<int> numList = new List<int>();
-            //var numList ;
 
         }
         static int[] nums1;

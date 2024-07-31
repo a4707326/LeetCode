@@ -14,32 +14,11 @@ namespace LeetCode
         {
             Console.WriteLine("LC1009_Complement_of_Base_10_Integer");
 
-
-
-            int[] nums = { 2, 2, 3, 3 };
-            int[] nums2 = { 2, 2, 3, 3 };
             int num = 5;
-            int num2 = 1;
-            string str = "cba";
-            string str2 = "abcd";
-            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+
 
             var ans = BitwiseComplement(num);
 
-
-            //foreach ( var i in ans ) 
-            //{
-            //    Console.WriteLine(i.ToString());
-            //}
-
-            ////IList<IList<string>> 
-            //foreach (var i in ans)
-            //{
-            //    foreach (var j in i)
-            //    {
-            //        Console.WriteLine(j.ToString());
-            //    }
-            //}
 
             Console.WriteLine(ans);
 

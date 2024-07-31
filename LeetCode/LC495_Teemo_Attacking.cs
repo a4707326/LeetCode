@@ -17,19 +17,13 @@ namespace LeetCode
 
 
             int[] nums = { 1,2 };
-            int[] nums2 = { 2, 2, 3, 3 };
+
             int num = 2;
-            int num2 = 1;
-            string str = "cba";
-            string str2 = "abcd";
+
 
             var ans = FindPoisonedDuration(nums, num);
 
 
-            //foreach ( var i in ans ) 
-            //{
-            //    Console.WriteLine(i.ToString());
-            //}
 
             Console.WriteLine(ans);
 

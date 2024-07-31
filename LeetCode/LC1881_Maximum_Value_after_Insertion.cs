@@ -16,31 +16,14 @@ namespace LeetCode
             Console.WriteLine("LC1881_Maximum_Value_after_Insertion");
 
 
-
-            int[] nums = { 2, 2, 3, 3 };
-            int[] nums2 = { 2, 2, 3, 3 };
             int num = 3;
-            int num2 = 1;
             string str = "-132";
-            string str2 = "abcd";
-            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+
 
             var ans = MaxValue2(str, num);
 
 
-            //foreach ( var i in ans ) 
-            //{
-            //    Console.WriteLine(i.ToString());
-            //}
 
-            ////IList<IList<string>> 
-            //foreach (var i in ans)
-            //{
-            //    foreach (var j in i)
-            //    {
-            //        Console.WriteLine(j.ToString());
-            //    }
-            //}
 
             Console.WriteLine(ans);
 

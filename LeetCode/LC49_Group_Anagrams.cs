@@ -16,18 +16,11 @@ namespace LeetCode
             Console.WriteLine("LC49_Group_Anagrams");
 
 
-
-            int[] nums = { 2, 2, 3, 3 };
-            int[] nums2 = { 2, 2, 3, 3 };
-            int num = 5;
-            int num2 = 1;
-            string str = "cba";
-            string str2 = "abcd";
             string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
 
             var ans = GroupAnagrams(strs);
 
-            //IList<IList<string>> 
+
             foreach (var i in ans)
             {
                 foreach (var j in i)
@@ -36,7 +29,7 @@ namespace LeetCode
                 }
             }
 
-            //Console.WriteLine(ans);
+
 
         }
         
