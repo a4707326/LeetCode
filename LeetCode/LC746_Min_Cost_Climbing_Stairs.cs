@@ -16,10 +16,10 @@ namespace LeetCode
 
 
 
-            int[] nums = { 1, 2, 1000, 1 };
+            int[] nums = { 10, 15, 20 };
 
 
-            var ans = MinCostClimbingStairs(nums);
+            var ans = MinCostClimbingStairs2(nums);
 
 
 
@@ -47,6 +47,30 @@ namespace LeetCode
             //[0,0,1,2,3]
             return dp[n]; // 返回到達樓頂的最小成本
 
+        }
+
+        //Input: cost = [1,100,1,1,1,100,1,1,100,1]
+        //Input: cost = [1,100,0,0,0,0,0,0,0,0]
+        //Input: cost = [1,100,2,3,3,103,4,5,104,6]
+
+        //Input: cost = [1 ,2 ,1000 ,1]
+        //Input: cost = [0,0,0,0]
+        //Input: cost = [1,2,1001,3]
+
+
+        //Output: 6
+        static int MinCostClimbingStairs2(int[] cost)
+        {
+            int[] dp = new int[cost.Length + 1];
+            Array.Copy(cost, dp, cost.Length);
+
+
+            for (int i = 2; i < dp.Length; i++)
+            {
+                dp[i] = Math.Min(dp[i - 1], dp[i - 2]) + dp[i];
+
+            }
+            return dp[dp.Length-1];
         }
 
     }
